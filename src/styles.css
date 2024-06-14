@@ -1,6 +1,5 @@
 * {
   font-family: Helvetica, Arial, sans-serif;
-  
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -12,7 +11,7 @@ body {
 }
 
 .navbar {
-  background-color: rgb(197, 179, 255); 
+  background-color: rgb(197, 179, 255); /* Violeta clarito */
   padding: 15px 20px;
   display: flex;
   align-items: center;
@@ -46,6 +45,25 @@ h2 {
 h3 {
   font-size: 2rem;
   margin-bottom: 15px;
+}
+
+.category-container {
+  margin-bottom: 40px; /* Separación entre categorías */
+}
+
+.category-title {
+  font-size: 2rem;
+  color: rgb(97, 32, 158); /* Color del título */
+  margin-bottom: 20px;
+  border-bottom: 2px solid rgb(97, 32, 158); /* Subrayado */
+  padding-bottom: 10px;
+}
+
+.loading {
+  text-align: center;
+  font-size: 1.5rem;
+  color: rgb(97, 32, 158);
+  margin-bottom: 20px;
 }
 
 .card-grid {
